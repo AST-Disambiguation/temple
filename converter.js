@@ -16,8 +16,8 @@ const visitor = {
 
 const visitors_container = [];
 
-let visitors_container.forEach(rulu => {
-    traverse(ast_code, rulu)
+let visitors_container.forEach(rule => {
+    traverse(ast_code, rule)
 });
 
 // generate clean js file
