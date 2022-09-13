@@ -5,7 +5,7 @@ const types = require('@babel/types');
 const generator = require('@babel/generator').default;
 const traverse = require('@babel/traverse').default;
 
-const chaos_file = './a.js';
+const chaos_file = '';
 let chaos_code = fs.readFileSync(chaos_file, {encoding: 'utf-8'});
 let ast_code = parse(chaos_code, {sourceType: "module"});
 
